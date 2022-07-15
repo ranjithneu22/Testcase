@@ -13,4 +13,4 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
-    projects: '/UnitTestProject1/UnitTestProject1.csproj'
+    projects: '**/UnitTestProject1/*.csproj'
